@@ -1,5 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import { Sparkles } from "lucide-react";
+import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, Contestants, Personalities, Footer } from "@/components/site";
 
 
