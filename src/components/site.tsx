@@ -587,6 +587,7 @@ export function Impact() {
 const GALLERY_SPANS = ["row-span-2", "", "", "row-span-2", "", ""];
 
 const GALLERY_FALLBACK = [
+  { id: -7, title: "Miss Agriculture 2025 Queen", url: missAgri2025Queen.url, kind: "image", category: "gallery", description: null },
   { id: -1, title: "Grand Finale", url: g2, kind: "image", category: "gallery", description: null },
   { id: -2, title: "Parliament Tour", url: g5, kind: "image", category: "gallery", description: null },
   { id: -3, title: "Cultural Showcase", url: g3, kind: "image", category: "gallery", description: null },
