@@ -22,7 +22,7 @@ const NAV = [
   { to: "/admin", label: "Dashboard", icon: LayoutDashboard, exact: true, children: [] },
   { to: "/admin/contestants", label: "Contestants", icon: Users, exact: false, children: [] },
   { to: "/admin/applications", label: "Applications", icon: ClipboardList, exact: false, children: [] },
-  { to: "/admin/voting", label: "Voting", icon: Vote, exact: false, children: [] },
+  
   {
     to: "/admin/events",
     label: "Events",
