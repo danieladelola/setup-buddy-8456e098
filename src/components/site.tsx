@@ -653,6 +653,53 @@ export function Gallery({ showHeader = true }: { showHeader?: boolean }) {
   );
 }
 
+// ---------- Press Conference 2026 ----------
+
+import press1 from "@/assets/press-2026/press-2026-1.jpeg.asset.json";
+import press2 from "@/assets/press-2026/press-2026-2.jpeg.asset.json";
+import press3 from "@/assets/press-2026/press-2026-3.jpeg.asset.json";
+import press4 from "@/assets/press-2026/press-2026-4.jpeg.asset.json";
+import press5 from "@/assets/press-2026/press-2026-5.jpeg.asset.json";
+import press6 from "@/assets/press-2026/press-2026-6.jpeg.asset.json";
+import press7 from "@/assets/press-2026/press-2026-7.jpeg.asset.json";
+import press8 from "@/assets/press-2026/press-2026-8.jpeg.asset.json";
+import press9 from "@/assets/press-2026/press-2026-9.jpeg.asset.json";
+import press10 from "@/assets/press-2026/press-2026-10.jpeg.asset.json";
+
+const PRESS_2026 = [press1, press2, press3, press4, press5, press6, press7, press8, press9, press10];
+
+export function PressConference2026() {
+  return (
+    <section className="py-20 md:py-28 bg-background">
+      <div className="container-luxe">
+        <Reveal>
+          <div className="mb-12">
+            <SectionLabel>Press</SectionLabel>
+            <h2 className="font-display text-4xl md:text-6xl max-w-3xl leading-[1.05]">
+              Miss Agriculture Zambia <span className="italic text-gradient-gold">2026 Press Conference.</span>
+            </h2>
+          </div>
+        </Reveal>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {PRESS_2026.map((p, i) => (
+            <Reveal key={p.asset_id} delay={i * 0.05}>
+              <div className="group relative overflow-hidden rounded-2xl aspect-[4/5]">
+                <img
+                  src={p.url}
+                  alt={`Miss Agriculture Zambia 2026 Press Conference ${i + 1}`}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-green-deep/80 via-transparent to-transparent opacity-70 group-hover:opacity-90 transition-opacity pointer-events-none" />
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ---------- Personalities ----------
 
 const PEOPLE = [
