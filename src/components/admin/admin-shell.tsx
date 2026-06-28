@@ -8,7 +8,6 @@ import {
   Image as ImageIcon,
   LogOut,
   Sprout,
-  Vote,
   Menu,
   X,
   Handshake,
