@@ -147,8 +147,8 @@ export function Header({ transparentOnTop = false }: { transparentOnTop?: boolea
           </nav>
 
           <div className="flex items-center gap-2 md:gap-3 shrink-0">
-            <Link to="/contestant" preload="intent" className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-soft via-gold to-gold-deep text-green-deep text-[13px] font-semibold tracking-wide shadow-[0_10px_30px_-10px_color-mix(in_oklab,var(--gold)_55%,transparent)] hover:-translate-y-0.5 transition-all">
-              Vote Now <ArrowRight className="w-4 h-4" />
+            <Link to="/contestant-apply" preload="intent" className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-soft via-gold to-gold-deep text-green-deep text-[13px] font-semibold tracking-wide shadow-[0_10px_30px_-10px_color-mix(in_oklab,var(--gold)_55%,transparent)] hover:-translate-y-0.5 transition-all">
+              Become a Contestant <ArrowRight className="w-4 h-4" />
             </Link>
             <button
               onClick={() => setOpen(true)}
