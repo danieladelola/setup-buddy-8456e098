@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { PageHero, Gallery, Footer } from "@/components/site";
+import { PageHero, Gallery, PressConference2026, Footer } from "@/components/site";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
