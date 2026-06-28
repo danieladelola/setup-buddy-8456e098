@@ -28,6 +28,7 @@ import g3 from "@/assets/gallery-3.jpg";
 import g4 from "@/assets/gallery-4.jpg";
 import g5 from "@/assets/gallery-5.jpg";
 import g6 from "@/assets/gallery-6.jpg";
+import missAgri2025Queen from "@/assets/miss-agriculture-2025-queen.jpg.asset.json";
 import logoAsset from "@/assets/miss-agriculture-zambia-logo.png";
 import zanacoLogo from "@/assets/zanaco-logo.png.asset.json";
 import ministryOfAgricultureLogo from "@/assets/ministry-of-agriculture.png.asset.json";
