@@ -40,8 +40,9 @@ export const listContestants = createServerFn({ method: "GET" }).handler(async (
     SELECT id, full_name, age, province, district, status, votes, profile_photo,
            to_char(created_at,'YYYY-MM-DD') AS created_at
     FROM contestants
+    WHERE status <> 'past'
     ORDER BY id DESC
-  `;
+
   return rows as unknown as Array<{
     id: number;
     full_name: string;
