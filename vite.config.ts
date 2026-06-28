@@ -12,4 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Outside Lovable's build (e.g. Coolify/Docker self-host) target a Node server.
+  // Inside Lovable's build, the preset is forced to cloudflare and this is ignored.
+  nitro: { preset: "node-server" },
 });
