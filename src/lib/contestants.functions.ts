@@ -42,6 +42,8 @@ export const listContestants = createServerFn({ method: "GET" }).handler(async (
     FROM contestants
     WHERE status <> 'past'
     ORDER BY id DESC
+  `;
+
 
   return rows as unknown as Array<{
     id: number;
