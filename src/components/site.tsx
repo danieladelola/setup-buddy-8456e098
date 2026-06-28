@@ -199,8 +199,8 @@ export function Header({ transparentOnTop = false }: { transparentOnTop?: boolea
                   </Link>
                 </motion.div>
               ))}
-              <Link to="/contestant" onClick={() => setOpen(false)} className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-gradient-to-r from-gold-soft via-gold to-gold-deep text-green-deep font-semibold">
-                Vote Now <ArrowRight className="w-4 h-4" />
+              <Link to="/contestant-apply" onClick={() => setOpen(false)} className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-gradient-to-r from-gold-soft via-gold to-gold-deep text-green-deep font-semibold">
+                Become a Contestant <ArrowRight className="w-4 h-4" />
               </Link>
               <div className="mt-8 text-xs text-ivory/60 leading-relaxed">
                 Empowering Women • Advancing Agriculture • Celebrating Zambia
