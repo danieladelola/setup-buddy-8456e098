@@ -19,6 +19,7 @@ function GalleryPage() {
 
       <PageHero kicker="Gallery" title="Moments that" italic="defined a movement." sub="A visual chronicle of finales, cultural showcases, community projects and national milestones." />
       <Gallery showHeader={false} />
+      <PressConference2026 />
       <Footer />
     </main>
   );
